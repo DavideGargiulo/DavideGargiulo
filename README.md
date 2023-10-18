@@ -1,16 +1,31 @@
-### Hi there 👋
+```c++
+#include <iostream>
+#include <vector>
 
-<!--
-**DavideGargiulo/DavideGargiulo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class SoftwareEngineer {
+public:
+    SoftwareEngineer() {
+        pronouns = "He/Him";
+        name = "Davide";
+        role = "Computer Science Student";
+        language_spoken = {"it_IT", "en_US"};
+    }
 
-Here are some ideas to get you started:
+    void say_hi() {
+        std::cout << "Thanks for dropping by, hope you find some of my work interesting." << std::endl;
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+private:
+    std::string pronouns;
+    std::string name;
+    std::string role;
+    std::vector<std::string> language_spoken;
+};
+
+int main() {
+    SoftwareEngineer me;
+    me.say_hi();
+
+    return 0;
+}
+```
