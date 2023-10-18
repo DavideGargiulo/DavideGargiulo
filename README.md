@@ -2,9 +2,9 @@
 #include <iostream>
 #include <vector>
 
-class SoftwareEngineer {
+class CS_Student {
 public:
-    SoftwareEngineer() {
+    CS_Student() {
         pronouns = "He/Him";
         name = "Davide";
         role = "Computer Science Student";
@@ -23,7 +23,7 @@ private:
 };
 
 int main() {
-    SoftwareEngineer me;
+    CS_Student me;
     me.say_hi();
 
     return 0;
