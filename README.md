@@ -12,7 +12,7 @@ public:
     }
 
     void say_hi() {
-        std::cout << "Thanks for dropping by, hope you find some of my work interesting." << std::endl;
+        std::cout << "Welcome to my digital space and I hope you find some of my work interesting." << std::endl;
     }
 
 private:
