@@ -4,9 +4,9 @@
 #include <iostream>
 #include <vector>
 
-class CS_Student {
+class ComputerScienceStudent {
 public:
-    CS_Student() {
+    ComputerScienceStudent () {
         pronouns = "He/Him";
         name = "Davide";
         organization: "University Of Naples Federico II",
@@ -14,7 +14,7 @@ public:
         language_spoken = {"it_IT", "en_US"};
     }
 
-    void say_hi() {
+    void say_hi () {
         std::cout << "Welcome to my digital space and I hope you find some of my work interesting." << std::endl;
     }
 
@@ -26,8 +26,8 @@ private:
     std::vector<std::string> language_spoken;
 };
 
-int main() {
-    CS_Student me;
+int main () {
+    ComputerScienceStudent me;
     me.say_hi();
 
     return 0;
@@ -57,9 +57,3 @@ int main() {
     <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png"></code>
   </div>
 </p>
-
----
-## **My GitHub Stats**
-![mangamaui's Stats](https://github-readme-stats.vercel.app/api?username=DavideGargiulo&theme=dark&show_icons=true&hide_border=true&count_private=true)
----
-![mangamaui's Streak](https://github-readme-streak-stats.herokuapp.com/?user=DavideGargiulo&theme=dark&hide_border=true)
